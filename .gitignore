@@ -1,0 +1,7 @@
+﻿# Hugo 生成物
+/public/
+/resources/_gen/
+/.hugo_build.lock
+
+# 传统主题目录（已用 Module，无需）
+/themes/
