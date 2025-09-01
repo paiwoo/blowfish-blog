@@ -5,13 +5,9 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write      # 关键：改成 write
   pages: write
   id-token: write
-
-concurrency:
-  group: pages
-  cancel-in-progress: false
 
 jobs:
   build:
@@ -26,9 +22,10 @@ jobs:
           hugo-version: 'latest'
           extended: true
       - name: Build
-        working-directory: ./src      # ← 确保在 src 目录执行
-        run: hugo --gc --minify --baseURL "https://${{ github.repository_owner }}.github.io/blowfish-blog/"
+        working-directory: ./src
+        run: |
+          hugo --gc --minify --baseURL "https://${{ github.repository_owner }}.github.io/blowfish-blog/"
       - uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./src/public   # ← 同样指向 src/public
+          publish_dir: ./src/public
