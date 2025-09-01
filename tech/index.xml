@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>技术 on Blowfish</title><link>https://paiwoo.github.io/blowfish-blog/tech/</link><description>Recent content in 技术 on Blowfish</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>© 2025 Blowfish</copyright><atom:link href="https://paiwoo.github.io/blowfish-blog/tech/index.xml" rel="self" type="application/rss+xml"/><item><title>Hugo &amp; Blowfish 博客搭建</title><link>https://paiwoo.github.io/blowfish-blog/tech/blog/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://paiwoo.github.io/blowfish-blog/tech/blog/</guid><description>&lt;h2 class="relative group"&gt;1 目标
+&lt;div id="1-目标" class="anchor"&gt;&lt;/div&gt;
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100 select-none"&gt;
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#1-%e7%9b%ae%e6%a0%87" aria-label="锚点"&gt;#&lt;/a&gt;
+&lt;/span&gt;
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;仓库：&lt;code&gt;blowfish-blog&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;地址：&lt;code&gt;https://&amp;lt;user&amp;gt;.github.io/blowfish-blog/&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;效果：与 &lt;a
+href="https://blowfish.page/zh-cn/"
+target="_blank"
+&gt;官方 demo&lt;/a&gt; 一致&lt;/li&gt;
+&lt;li&gt;主题：Blowfish v2（Hugo Module）&lt;/li&gt;
+&lt;li&gt;CI：GitHub Actions 自动部署&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 class="relative group"&gt;2 环境准备
+&lt;div id="2-环境准备" class="anchor"&gt;&lt;/div&gt;
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100 select-none"&gt;
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#2-%e7%8e%af%e5%a2%83%e5%87%86%e5%a4%87" aria-label="锚点"&gt;#&lt;/a&gt;
+&lt;/span&gt;
+&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;工具&lt;/th&gt;
+&lt;th&gt;下载 &amp;amp; 验证&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Git&lt;/td&gt;
+&lt;td&gt;&lt;a
+href="https://git-scm.com/download/win"
+target="_blank"
+&gt;git-scm.com&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Hugo extended&lt;/td&gt;
+&lt;td&gt;&lt;a
+href="https://github.com/gohugoio/hugo/releases"
+target="_blank"
+&gt;v0.139.3&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Go&lt;/td&gt;
+&lt;td&gt;&lt;a
+href="https://golang.org/dl/"
+target="_blank"
+&gt;golang.org/dl&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-powershell" data-lang="powershell"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="n"&gt;hugo&lt;/span&gt; &lt;span class="n"&gt;version&lt;/span&gt; &lt;span class="c"&gt;# 需显示 extended&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="n"&gt;go&lt;/span&gt; &lt;span class="n"&gt;version&lt;/span&gt; &lt;span class="c"&gt;# 任意目录可用&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2 class="relative group"&gt;3 快速初始化
+&lt;div id="3-快速初始化" class="anchor"&gt;&lt;/div&gt;
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100 select-none"&gt;
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#3-%e5%bf%ab%e9%80%9f%e5%88%9d%e5%a7%8b%e5%8c%96" aria-label="锚点"&gt;#&lt;/a&gt;
+&lt;/span&gt;
+&lt;/h2&gt;
+&lt;p&gt;（D:\blowfish-blog）&lt;/p&gt;</description></item></channel></rss>
