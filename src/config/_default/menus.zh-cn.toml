@@ -9,83 +9,131 @@
 # By default the menu is ordered alphabetically. This can be
 # overridden by providing a weight value. The menu will then be
 # ordered by weight from lowest to highest.
+# -- 主菜单（顶部导航）--
+# [[main]]
+#   name = "日常"
+#   pageRef = "life/daily"
+#   weight = 10
+
+# [[main]]
+#   name = "便签"
+#   pageRef = "life/todo"
+#   weight = 15
+
+# [[main]]
+#   name = "购物"
+#   pageRef = "life/shopping"
+#   weight = 20
 
 [[main]]
-  name = "文档"
-  pageRef = "docs"
-  weight = 10
+  name = "技术"
+  pageRef = "tech"
+  weight =1
+# [[main]]
+#   name = "代码片段"
+#   pageRef = "tech/code"
+#   weight = 35
 
-[[main]]
-  name = "简码"
-  pageRef = "docs/shortcodes"
-  weight = 15
+# [[main]]
+#   name = "BUG 记录"
+#   pageRef = "tech/bug"
+#   weight = 40
 
-[[main]]
-  name = "示例"
-  weight = 20
+# [[main]]
+#   name = "项目归档"
+#   pageRef = "tech/project"
+#   weight = 50
 
-[[main]]
-  name = "功能示例"
-  parent = "示例"
-  pageRef = "samples"
-  weight = 16
+# [[main]]
+#   name = "关于"
+#   pageRef = "about"
+#   weight = 90
 
-[[main]]
-  name = "模板示例"
-  parent = "示例"
-  pageRef = "examples"
-  weight = 30
-
-[[main]]
-  name = "部署指南"
-  parent = "示例"
-  pageRef = "guides"
-  weight = 40
-
-[[main]]
-  name = "用户列表"
-  pageRef = "users"
-  weight = 90
-
-[[main]]
-  name = "周边"
-  url = "https://www.teepublic.com/user/blowfish-store/t-shirts"
-  weight = 100
-
-#[[main]]
-#  name = "Test"
-#  pageRef = "pagTest"
-#  weight = 1000
-
-[[main]]
-  identifier = "twitter"
-  pre = "x-twitter"
-  url = "https://twitter.com/burufugu"
-  weight = 200
-
-#[[main]]
-#  identifier = "mastodon"
-#  pre = "mastodon"
-#  weight = 300
-#  url = "https://masto.ai/@blowfish"
-
-[[main]]
-  identifier = "github"
-  pre = "github"
-  url = "https://github.com/nunocoracao/blowfish"
-  weight = 400
+# # -- 底部菜单 --
+# [[footer]]
+#   name = "标签"
+#   pageRef = "tags"
+#   weight = 10
 
 
-# -- Footer Menu --
-# The footer menu is displayed at the bottom of the page, just before
-# the copyright notice. Configure as per the main menu above.
 
- [[footer]]
-   name = "标签"
-   pageRef = "tags"
-   weight = 10
 
- [[footer]]
-   name = "作者"
-   pageRef = "authors"
-   weight = 20
+# [[main]]
+#   name = "文档"
+#   pageRef = "docs"
+#   weight = 10
+
+# [[main]]
+#   name = "简码"
+#   pageRef = "docs/shortcodes"
+#   weight = 15
+
+# [[main]]
+#   name = "示例"
+#   weight = 20
+
+# [[main]]
+#   name = "功能示例"
+#   parent = "示例"
+#   pageRef = "samples"
+#   weight = 16
+
+# [[main]]
+#   name = "模板示例"
+#   parent = "示例"
+#   pageRef = "examples"
+#   weight = 30
+
+# [[main]]
+#   name = "部署指南"
+#   parent = "示例"
+#   pageRef = "guides"
+#   weight = 40
+
+# [[main]]
+#   name = "用户列表"
+#   pageRef = "users"
+#   weight = 90
+
+# [[main]]
+#   name = "周边"
+#   url = "https://www.teepublic.com/user/blowfish-store/t-shirts"
+#   weight = 100
+
+# #[[main]]
+# #  name = "Test"
+# #  pageRef = "pagTest"
+# #  weight = 1000
+
+# [[main]]
+#   identifier = "twitter"
+#   pre = "x-twitter"
+#   url = "https://twitter.com/burufugu"
+#   weight = 200
+
+# #[[main]]
+# #  identifier = "mastodon"
+# #  pre = "mastodon"
+# #  weight = 300
+# #  url = "https://masto.ai/@blowfish"
+
+# [[main]]
+#   identifier = "github"
+#   pre = "github"
+#   url = "https://github.com/nunocoracao/blowfish"
+#   weight = 400
+
+
+# # -- Footer Menu --
+# # The footer menu is displayed at the bottom of the page, just before
+# # the copyright notice. Configure as per the main menu above.
+
+#  [[footer]]
+#    name = "标签"
+#    pageRef = "tags"
+#    weight = 10
+
+#  [[footer]]
+#    name = "作者"
+#    pageRef = "authors"
+#    weight = 20
