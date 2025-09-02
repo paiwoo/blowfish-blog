@@ -24,7 +24,7 @@ jobs:
       - name: Build
         working-directory: ./src
         run: |
-          hugo --gc --minify --baseURL "https://${{ github.repository_owner }}.github.io/blowfish-blog/"
+          hugo --gc --minify --baseURL "https://${{ github.repository_owner }}.github.io/pailog/"
       - uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}

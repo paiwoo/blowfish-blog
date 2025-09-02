@@ -84,4 +84,4 @@ googleAnalytics = "G-PEDMYR1V0K"
       #   - UNIX: HUGO_DISABLELANGUAGES='it ja zh-cn' npm run example:core
       #   - Windows CMD: set "HUGO_DISABLELANGUAGES=it ja zh-cn" && npm run example:core
       #   - Windows PowerShell: $env:HUGO_DISABLELANGUAGES="it ja zh-cn"; npm run example:core
-      lang = 'en'
+      lang = 'zh'

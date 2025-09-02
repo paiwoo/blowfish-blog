@@ -29,10 +29,19 @@
   name = "技术"
   pageRef = "tech"
   weight =1
+
+## 嵌套菜单 
 # [[main]]
 #   name = "代码片段"
-#   pageRef = "tech/code"
+#   parent = "技术"
+#   pageRef = "tech/blog"
 #   weight = 35
+
+# 子类别项
+#[[subnavigation]]
+#  name = "An interesting topic"
+#  pageRef = "tags/interesting-topic"
+#  weight = 10
 
 # [[main]]
 #   name = "BUG 记录"
