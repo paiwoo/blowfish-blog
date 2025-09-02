@@ -6,6 +6,7 @@ cascade:
   showDate: false
   showAuthor: false
   invertPagination: true
+  hideFeatureImage: true ## 隐藏图片
 ---
 
 {{< lead >}}
