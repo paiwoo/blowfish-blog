@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://paiwoo.github.io/blowfish-blog/sitemap.xml
+Sitemap: https://paiwoo.github.io/pailog/sitemap.xml
