@@ -63,4 +63,4 @@ class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 
 &lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#3-%e5%bf%ab%e9%80%9f%e5%88%9d%e5%a7%8b%e5%8c%96" aria-label="锚点"&gt;#&lt;/a&gt;
 &lt;/span&gt;
 &lt;/h2&gt;
-&lt;p&gt;（D:\blowfish-blog）&lt;/p&gt;</description></item></channel></rss>
+&lt;p&gt;（D:\blowfish-blog）&lt;/p&gt;</description></item><item><title>软路由搭建</title><link>https://paiwoo.github.io/blowfish-blog/tech/soft-route/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://paiwoo.github.io/blowfish-blog/tech/soft-route/</guid><description>一份可直接复制的完整实操文档，涵盖硬件清单、镜像烧录、网络拓扑、代理部署与落地节点挑选，适合跨境电商工作室零基础落地。</description></item></channel></rss>
