@@ -63,4 +63,63 @@ class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 
 &lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#3-%e5%bf%ab%e9%80%9f%e5%88%9d%e5%a7%8b%e5%8c%96" aria-label="锚点"&gt;#&lt;/a&gt;
 &lt;/span&gt;
 &lt;/h2&gt;
-&lt;p&gt;（D:\blowfish-blog）&lt;/p&gt;</description></item><item><title>软路由搭建</title><link>https://paiwoo.github.io/pailog/tech/soft-route/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://paiwoo.github.io/pailog/tech/soft-route/</guid><description>一份可直接复制的完整实操文档，涵盖硬件清单、镜像烧录、网络拓扑、代理部署与落地节点挑选，适合跨境电商工作室零基础落地。</description></item></channel></rss>
+&lt;p&gt;（D:\blowfish-blog）&lt;/p&gt;</description></item><item><title>VS Code 优化清单</title><link>https://paiwoo.github.io/pailog/tech/vscode-config/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://paiwoo.github.io/pailog/tech/vscode-config/</guid><description>&lt;h2 class="relative group"&gt;配置
+&lt;div id="配置" class="anchor"&gt;&lt;/div&gt;
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100 select-none"&gt;
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#%e9%85%8d%e7%bd%ae" aria-label="锚点"&gt;#&lt;/a&gt;
+&lt;/span&gt;
+&lt;/h2&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;// ── 字体与排版 ─────────────────────────
+&amp;#34;editor.fontSize&amp;#34;: 16, // 主编辑区字号，大屏可 18
+// ── 主题 &amp;amp; 图标 ───────────────────────
+iconTheme - Material Icon Theme
+// ── 编辑器行为 ───────────────────────
+&amp;#34;editor.formatOnSave&amp;#34;: true,
+// ── 其他贴心设置 ─────────────────────
+&amp;#34;files.autoSave&amp;#34;: &amp;#34;onFocusChange&amp;#34;,
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 class="relative group"&gt;插件
+&lt;div id="插件" class="anchor"&gt;&lt;/div&gt;
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100 select-none"&gt;
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#%e6%8f%92%e4%bb%b6" aria-label="锚点"&gt;#&lt;/a&gt;
+&lt;/span&gt;
+&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;插件&lt;/th&gt;
+&lt;th&gt;功能&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Dracula Theme Official - Dracula Theme&lt;/td&gt;
+&lt;td&gt;主题&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Material Icon Theme&lt;/td&gt;
+&lt;td&gt;彩色文件图标&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Bracket Pair Colorizer 2&lt;/td&gt;
+&lt;td&gt;彩虹括号&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Error Lens&lt;/td&gt;
+&lt;td&gt;把报错直接渲染到行内&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 class="relative group"&gt;字体放大
+&lt;div id="字体放大" class="anchor"&gt;&lt;/div&gt;
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100 select-none"&gt;
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#%e5%ad%97%e4%bd%93%e6%94%be%e5%a4%a7" aria-label="锚点"&gt;#&lt;/a&gt;
+&lt;/span&gt;
+&lt;/h2&gt;
+&lt;p&gt;仅放大代码区
+Ctrl + 滚轮 即可临时放大；永久生效请改 editor.fontSize。
+整体 UI 放大
+Ctrl + = / Ctrl + - 调整 window.zoomLevel，或菜单 View → Appearance → Zoom。&lt;/p&gt;</description></item><item><title>软路由搭建</title><link>https://paiwoo.github.io/pailog/tech/soft-route/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://paiwoo.github.io/pailog/tech/soft-route/</guid><description>一份可直接复制的完整实操文档，涵盖硬件清单、镜像烧录、网络拓扑、代理部署与落地节点挑选，适合跨境电商工作室零基础落地。</description></item></channel></rss>
