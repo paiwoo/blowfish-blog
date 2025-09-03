@@ -26,10 +26,14 @@
 #   weight = 20
 
 [[main]]
-  name = "技术"
-  pageRef = "tech"
-  weight =1
+name = "Tech"
+pageRef = "tech"
+weight = 2
 
+[[main]]
+name = "Life"
+pageRef = "life"
+weight = 1
 ## 嵌套菜单 
 # [[main]]
 #   name = "代码片段"
@@ -63,8 +67,6 @@
 #   name = "标签"
 #   pageRef = "tags"
 #   weight = 10
-
-
 
 
 # [[main]]
