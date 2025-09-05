@@ -1,5 +1,5 @@
 ---
-title: "Life OS Hub"
+title: "Life"
 description: ""
 
 cascade:
@@ -7,7 +7,7 @@ cascade:
   showAuthor: false
 ---
 
-# 人生OS Dashboard
+# Life OS Hub
 
 ## 🎯 目标 OS
 - 本双周 3 大任务
