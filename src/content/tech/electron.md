@@ -77,8 +77,25 @@ function createWindow() {
 }
 
 app.whenReady().then(createWindow);
-app.on('window-all-closed', () => {});
-app.on('before-quit', () => { if (tray) tray.destroy(); });
+// 监听应用即将退出事件
+app.on('before-quit', () => {
+    // 如果托盘实例存在，销毁托盘图标并释放资源
+    if (tray) {
+        tray.destroy();
+        tray = null;
+    }
+});
+
+// 监听所有窗口关闭事件
+app.on('window-all-closed', () => {
+    // 如果托盘实例存在，销毁托盘图标并释放资源
+    if (tray) {
+        tray.destroy();
+        tray = null;
+    }
+    // 可选：窗口全关时退出应用
+    app.quit();
+});
 ```
 
 preload.js
