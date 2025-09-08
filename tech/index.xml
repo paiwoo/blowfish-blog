@@ -70,7 +70,8 @@ class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 
 &lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#-electron-%e6%a1%8c%e9%9d%a2%e5%a3%b3%e6%9c%80%e4%bd%b3%e5%ae%9e%e8%b7%b5%e6%8c%87%e5%8d%97" aria-label="锚点"&gt;#&lt;/a&gt;
 &lt;/span&gt;
 &lt;/h1&gt;
-&lt;p&gt;&lt;em&gt;基于 Electron + electron-builder 的「远程网页」打包桌面壳方案&lt;/em&gt;&lt;/p&gt;</description></item><item><title>VS Code 优化清单</title><link>https://paiwoo.github.io/pailog/tech/vscode-config/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://paiwoo.github.io/pailog/tech/vscode-config/</guid><description>&lt;h2 class="relative group"&gt;配置
+&lt;p&gt;&lt;em&gt;基于 Electron + electron-builder 的「远程网页」打包桌面壳方案&lt;/em&gt;&lt;/p&gt;</description></item><item><title>IIS “波浪号目录枚举”漏洞解决</title><link>https://paiwoo.github.io/pailog/tech/iis_tilde_dir_fix/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://paiwoo.github.io/pailog/tech/iis_tilde_dir_fix/</guid><description>&lt;p&gt;&lt;strong&gt;主题&lt;/strong&gt;：解决微软 IIS “波浪号目录枚举”漏洞（IIS 短文件名泄露）&lt;br&gt;
+&lt;strong&gt;更新&lt;/strong&gt;：2025-09-08&lt;/p&gt;</description></item><item><title>VS Code 优化清单</title><link>https://paiwoo.github.io/pailog/tech/vscode-config/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://paiwoo.github.io/pailog/tech/vscode-config/</guid><description>&lt;h2 class="relative group"&gt;配置
 &lt;div id="配置" class="anchor"&gt;&lt;/div&gt;
 &lt;span
 class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100 select-none"&gt;
