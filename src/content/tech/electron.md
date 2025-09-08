@@ -49,34 +49,37 @@ const path = require('path');
 const cfg = require('./config');
 
 let win;
-let tray;
+let tray; // 托盘实例
 
 function createWindow() {
-  const winIcon = nativeImage.createFromPath(path.join(__dirname, 'build/icon.ico'));
-  win = new BrowserWindow({
-    width: cfg.width,
-    height: cfg.height,
-    autoHideMenuBar: cfg.autoHideMenuBar,
-    titleBarStyle: cfg.titleBarStyle,
-    icon: winIcon,
-    webPreferences: { contextIsolation: true, preload: path.join(__dirname, 'preload.js') }
-  });
+    const winIcon = nativeImage.createFromPath(path.join(__dirname, 'build/icon.ico'));
+    win = new BrowserWindow({
+        width: cfg.width,
+        height: cfg.height,
+        autoHideMenuBar: cfg.autoHideMenuBar,
+        titleBarStyle: cfg.titleBarStyle,
+        icon: winIcon,
+        webPreferences: { contextIsolation: true, preload: path.join(__dirname, 'preload.js') }
+    });
 
-  win.loadFile(path.join(__dirname, 'splash.html'));
-  setTimeout(() => win.loadURL(cfg.remoteUrl), cfg.splashDuration);
+    win.loadFile(path.join(__dirname, 'splash.html'));
+    setTimeout(() => win.loadURL(cfg.remoteUrl), cfg.splashDuration);
 
-  // 托盘
-  const trayIcon = nativeImage.createFromPath(path.join(__dirname, 'build/icon.ico'));
-  tray = new Tray(trayIcon.isEmpty() ? nativeImage.createEmpty() : trayIcon.resize({ width: 16 }));
-  tray.setToolTip(cfg.productName || 'MyApp');
-  tray.setContextMenu(Menu.buildFromTemplate([
-    { label: '显示窗口', click: () => win.show() },
-    { label: '退出', click: () => app.quit() }
-  ]));
-  tray.on('double-click', () => win.show());
+    // ========= 托盘 start =========
+    const trayIcon = nativeImage.createFromPath(path.join(__dirname, 'build/icon.ico'));
+    tray = new Tray(trayIcon.isEmpty() ? nativeImage.createEmpty() : trayIcon.resize({ width: 16 }));
+    tray.setToolTip(cfg.productName || 'Desktop-App');
+    tray.setContextMenu(Menu.buildFromTemplate([
+        { label: '显示窗口', click: () => win.show() },
+        { label: '退出', click: () => app.quit() }
+    ]));
+    // 双击托盘恢复窗口
+    tray.on('double-click', () => win.show());
+    // ========= 托盘 end =========
 }
 
 app.whenReady().then(createWindow);
+
 // 监听应用即将退出事件
 app.on('before-quit', () => {
     // 如果托盘实例存在，销毁托盘图标并释放资源
