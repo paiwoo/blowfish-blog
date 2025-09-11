@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>JeecgBoot on Pailog</title><link>https://paiwoo.github.io/pailog/tags/jeecgboot/</link><description>Recent content in JeecgBoot on Pailog</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>© 2025 PaiBoo</copyright><atom:link href="https://paiwoo.github.io/pailog/tags/jeecgboot/index.xml" rel="self" type="application/rss+xml"/><item><title>🚀 JeecgBoot springboot3-3.8.2 极速踩坑实录</title><link>https://paiwoo.github.io/pailog/tech/jeecgboot-start/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://paiwoo.github.io/pailog/tech/jeecgboot-start/</guid><description>&lt;hr&gt;
+&lt;h1 class="relative group"&gt;🚀 JeecgBoot springboot3-3.8.2 极速踩坑实录
+&lt;div id="-jeecgboot-springboot3-382-极速踩坑实录" class="anchor"&gt;&lt;/div&gt;
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100 select-none"&gt;
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#-jeecgboot-springboot3-382-%e6%9e%81%e9%80%9f%e8%b8%a9%e5%9d%91%e5%ae%9e%e5%bd%95" aria-label="锚点"&gt;#&lt;/a&gt;
+&lt;/span&gt;
+&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;基于亲测环境：IDEA 2025 + JDK17 Temurin 17.0.16 + MySQL 5.7.44 + Redis 6.2.19 + Node 22.19.0&lt;br&gt;
+从 0 到登录后台，&lt;strong&gt;15 min&lt;/strong&gt; 搞定。&lt;/p&gt;</description></item></channel></rss>

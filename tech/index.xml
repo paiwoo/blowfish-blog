@@ -63,7 +63,7 @@ class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 
 &lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#3-%e5%bf%ab%e9%80%9f%e5%88%9d%e5%a7%8b%e5%8c%96" aria-label="锚点"&gt;#&lt;/a&gt;
 &lt;/span&gt;
 &lt;/h2&gt;
-&lt;p&gt;（D:\blowfish-blog）&lt;/p&gt;</description></item><item><title>Electron 快速实践</title><link>https://paiwoo.github.io/pailog/tech/electron/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://paiwoo.github.io/pailog/tech/electron/</guid><description>&lt;h1 class="relative group"&gt;📘 Electron 桌面壳最佳实践指南
+&lt;p&gt;（D:\blowfish-blog）&lt;/p&gt;</description></item><item><title>Electron 远程网页打包桌面壳 快速实践</title><link>https://paiwoo.github.io/pailog/tech/electron/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://paiwoo.github.io/pailog/tech/electron/</guid><description>&lt;h1 class="relative group"&gt;📘 Electron 桌面壳最佳实践指南
 &lt;div id="-electron-桌面壳最佳实践指南" class="anchor"&gt;&lt;/div&gt;
 &lt;span
 class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100 select-none"&gt;
@@ -71,7 +71,28 @@ class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 
 &lt;/span&gt;
 &lt;/h1&gt;
 &lt;p&gt;&lt;em&gt;基于 Electron + electron-builder 的「远程网页」打包桌面壳方案&lt;/em&gt;&lt;/p&gt;</description></item><item><title>IIS “波浪号目录枚举”漏洞解决</title><link>https://paiwoo.github.io/pailog/tech/iis_tilde_dir_fix/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://paiwoo.github.io/pailog/tech/iis_tilde_dir_fix/</guid><description>&lt;p&gt;&lt;strong&gt;主题&lt;/strong&gt;：解决微软 IIS “波浪号目录枚举”漏洞（IIS 短文件名泄露）&lt;br&gt;
-&lt;strong&gt;更新&lt;/strong&gt;：2025-09-08&lt;/p&gt;</description></item><item><title>VS Code 优化清单</title><link>https://paiwoo.github.io/pailog/tech/vscode-config/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://paiwoo.github.io/pailog/tech/vscode-config/</guid><description>&lt;h2 class="relative group"&gt;配置
+&lt;strong&gt;更新&lt;/strong&gt;：2025-09-08&lt;/p&gt;</description></item><item><title>拿到编码的 URL 怎么办</title><link>https://paiwoo.github.io/pailog/tech/deal-with-encoded-url/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://paiwoo.github.io/pailog/tech/deal-with-encoded-url/</guid><description>&lt;hr&gt;
+&lt;p&gt;🔗 拿到编码的 URL 怎么办？3 秒搞定！&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;关键词：URL 编码、Percent-Encoding、C#、HttpUtility、WebUtility&lt;/p&gt;</description></item><item><title>验签失败？C#默认排序坑</title><link>https://paiwoo.github.io/pailog/tech/ascii-sign-bug/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://paiwoo.github.io/pailog/tech/ascii-sign-bug/</guid><description>&lt;p&gt;🔐 验签失败？SortedDictionary 默认排序 ≠ ASCII 序 —— .NET 4 踩坑记录&lt;/p&gt;</description></item><item><title>🚀 unibest 极速起步 · 微信小程序</title><link>https://paiwoo.github.io/pailog/tech/unibest-mp-start/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://paiwoo.github.io/pailog/tech/unibest-mp-start/</guid><description>&lt;h1 class="relative group"&gt;🚀 unibest 极速起步 · 微信小程序（wot-ui 版）
+&lt;div id="-unibest-极速起步--微信小程序wot-ui-版" class="anchor"&gt;&lt;/div&gt;
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100 select-none"&gt;
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#-unibest-%e6%9e%81%e9%80%9f%e8%b5%b7%e6%ad%a5--%e5%be%ae%e4%bf%a1%e5%b0%8f%e7%a8%8b%e5%ba%8fwot-ui-%e7%89%88" aria-label="锚点"&gt;#&lt;/a&gt;
+&lt;/span&gt;
+&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;5 分钟跑通开发 → 预览 → 热更全流程；基于目前 GitHub 最活跃的 uni-app 模板之一，集成 Vue3 + TS + Vite5 + UnoCSS + wot-ui，为「一套代码、多端发布」提供现代化解决方案。&lt;/p&gt;</description></item><item><title>🚀 JeecgBoot springboot3-3.8.2 极速踩坑实录</title><link>https://paiwoo.github.io/pailog/tech/jeecgboot-start/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://paiwoo.github.io/pailog/tech/jeecgboot-start/</guid><description>&lt;hr&gt;
+&lt;h1 class="relative group"&gt;🚀 JeecgBoot springboot3-3.8.2 极速踩坑实录
+&lt;div id="-jeecgboot-springboot3-382-极速踩坑实录" class="anchor"&gt;&lt;/div&gt;
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100 select-none"&gt;
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#-jeecgboot-springboot3-382-%e6%9e%81%e9%80%9f%e8%b8%a9%e5%9d%91%e5%ae%9e%e5%bd%95" aria-label="锚点"&gt;#&lt;/a&gt;
+&lt;/span&gt;
+&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;基于亲测环境：IDEA 2025 + JDK17 Temurin 17.0.16 + MySQL 5.7.44 + Redis 6.2.19 + Node 22.19.0&lt;br&gt;
+从 0 到登录后台，&lt;strong&gt;15 min&lt;/strong&gt; 搞定。&lt;/p&gt;</description></item><item><title>VS Code 优化清单</title><link>https://paiwoo.github.io/pailog/tech/vscode-config/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://paiwoo.github.io/pailog/tech/vscode-config/</guid><description>&lt;h2 class="relative group"&gt;配置
 &lt;div id="配置" class="anchor"&gt;&lt;/div&gt;
 &lt;span
 class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100 select-none"&gt;

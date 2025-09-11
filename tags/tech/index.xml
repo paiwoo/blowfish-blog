@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tech on Pailog</title><link>https://paiwoo.github.io/pailog/tags/tech/</link><description>Recent content in Tech on Pailog</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>© 2025 PaiBoo</copyright><atom:link href="https://paiwoo.github.io/pailog/tags/tech/index.xml" rel="self" type="application/rss+xml"/><item><title>🚀 unibest 极速起步 · 微信小程序</title><link>https://paiwoo.github.io/pailog/tech/unibest-mp-start/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://paiwoo.github.io/pailog/tech/unibest-mp-start/</guid><description>&lt;h1 class="relative group"&gt;🚀 unibest 极速起步 · 微信小程序（wot-ui 版）
+&lt;div id="-unibest-极速起步--微信小程序wot-ui-版" class="anchor"&gt;&lt;/div&gt;
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100 select-none"&gt;
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#-unibest-%e6%9e%81%e9%80%9f%e8%b5%b7%e6%ad%a5--%e5%be%ae%e4%bf%a1%e5%b0%8f%e7%a8%8b%e5%ba%8fwot-ui-%e7%89%88" aria-label="锚点"&gt;#&lt;/a&gt;
+&lt;/span&gt;
+&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;5 分钟跑通开发 → 预览 → 热更全流程；基于目前 GitHub 最活跃的 uni-app 模板之一，集成 Vue3 + TS + Vite5 + UnoCSS + wot-ui，为「一套代码、多端发布」提供现代化解决方案。&lt;/p&gt;</description></item></channel></rss>
